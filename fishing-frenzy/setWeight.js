@@ -12,10 +12,10 @@
             if (window.location.pathname != '/play/fishing') {
                 alert('You must be in a fishing frenzy game!');
             } else {
-                let weight = Number(parseFloat(prompt('How much weight do you want?')));
+                let weight = Number(parseFloat(prompt('How much weight you want gang?')));
                 reactHandler().stateNode.setState({ weight2: weight, weight });
         
-                alert('Weight set!');
+                alert('alr bet :D done!');
             };
 })();
 
@@ -52,3 +52,4 @@ function footer() {
 };
 
 footer();
+
